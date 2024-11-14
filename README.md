@@ -4,6 +4,11 @@ https://github.com/a-navia/Gest_Memoria.git
 Explicación paso a paso:
 
 objetivo: entender el proceso de memoria, cambiar de windows a linux mediantes varios metodos.
+1. instalacion wsl para hacer uso de mmap y wait:
+   -wsl --install
+   - lanza ubuntu: sudo apt update && sudo apt upgrade -y \n sudo apt install build-essential gdb
+   - sudo apt install git
+     
    ' 1. Primero, importamos las bibliotecas necesarias para la asignación de memoria y la creación de procesos.
 
    ' 2. Creamos una constante SIZE para determinar el tamaño de la región de memoria compartida que queremos asignar.
