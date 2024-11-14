@@ -8,6 +8,7 @@ Explicación paso a paso:
    ' 2. Creamos una constante SIZE para determinar el tamaño de la región de memoria compartida que queremos asignar.
 
   '  3.En la función principal, llamamos a la función mmap() para asignar una región de memoria que pueda ser compartida entre procesos. Los argumentos de esta función son los siguientes:
+        
         NULL: Le estamos pidiendo al sistema operativo que elija la dirección de inicio de la región de memoria.
         SIZE: Es el tamaño de la región que queremos asignar.
         PROT_READ|PROT_WRITE: Estamos indicando que la región de memoria puede ser leída y escrita.
