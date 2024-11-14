@@ -1,4 +1,4 @@
-# Gest_Memoria
+# Navia_Anamaria_Gest_Memoria
 # Gestion_de_Memoria
 https://github.com/a-navia/Gest_Memoria.git
 ### Dependecia
